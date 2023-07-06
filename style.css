@@ -179,6 +179,7 @@ section{
 }
 .about .about-content, .Projects .serv-content, .skills .skills-content, .contact, .contact-content{
     display: flex;
+    max-width: auto;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -356,6 +357,8 @@ section .title::after{
  .skills .skills-content .right .icons{
      font-size: 50px;
      color: darkslategray;
+     align-items:center;
+     
      display: flex;
      margin-bottom: 5px;
      align-items: center;
@@ -504,4 +507,8 @@ footer i{
 }
 footer i:hover{
     color: darkslategray;
+}
+.LIE{
+    list-style-type: none;
+    justify-content: space-around;
 }
